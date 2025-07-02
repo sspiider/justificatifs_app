@@ -1,8 +1,9 @@
 streamlit==1.23.1
---find-links https://download.pytorch.org/whl/torch_stable.html
-torch==1.13.1+cpu  # Specific CPU-only version
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==1.13.1+cpu
 easyocr==1.6.2
 opencv-python-headless==4.5.4.60
-numpy==1.21.6; python_version < '3.12'  # Force Python 3.9-3.11
+numpy==1.21.6
 pypdf2==3.0.1
 pdf2image==1.16.3
+python-multipart==0.0.6
