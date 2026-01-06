@@ -1,6 +1,4 @@
-# easyocr’s latest release doesn't yet officially support 3.13,
-# but we can build from the latest commit, or better:
-# replace easyocr with alternative if it still fails. Try upgrading first:
+
 easyocr>=1.7.1
 
 opencv-python
